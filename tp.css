@@ -1,0 +1,12 @@
+.glpi, .ocs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.glpi p, .ocs p {
+    flex: 1;
+    margin: 0;
+}

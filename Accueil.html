@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Commun.css" rel="stylesheet">
+    <link href="Accueil.css" rel="stylesheet">
+    <link href="veille.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.card-container, .card-container0').forEach(container => {
+          container.addEventListener('click', () => {
+              container.querySelector('.card').classList.toggle('flip');
+          });
+      });
+  });
+
+</script>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Accueil.html">Profil</a></li>
+            <li><a href="stage.html">Stages</a></li>
+            <li>
+                <a href="#">Projet</a>
+                <ul>
+                    <li><a href="Projet.html">Projet</a></li>
+                    <li><a href="tp.html">TP</a></li>
+                </ul>
+            </li>
+            <li><a href="Veille.html">Veille informatique</a></li>
+        </ul>
+    </nav>
+    <h1>ETHAN COULON</h1>
+    <section id="mavie">
+        <h3>Ma présentation</h3>
+        <br><br><br>
+        <p>Bonjour je m’appelle Ethan Coulon j’ai 19 ans et j’habite à Colmar. 
+          J’ai un frère qui s’appelle Quentin Coulon et qui à 21 ans. 
+          Je suis actuellement en BTS SIO option SLAM (Solution Logiciel et application métier) à Camille Sée. 
+        </p>
+      </div>
+      </section>
+      <br><br><br>
+      <section id="monparcours">
+        <h3>Présentation de mon parcours</h3>
+        <h4>Mon collège</h4>
+        <br>
+        <p>
+          <img src="berlioz.jpg" height= 290px alt="berlioz.jpg" class="img1">
+          Je suis allé au collège Hector Berlioz à Colmar et j’ai effectué mes 4 ans la bas. Au collège j'avais beaucoup de facilité à apprendre mes leçons, comprendre mes cours et avoir de bonne note.
+          Ma matière préféré est les mathématiques et c'est pour ça que je voulais devenir professeur de mathématiques.
+          Ma matière que je déteste est l'art-plastique car je n'aime pas trop dessiner. 
+          En 3ème j’ai fait mon brevet et obtenu avec la mention bien et presque très bien.
+          Ensuite je suis parti sur une seconde générale dans le domaine scientifique.</p>
+          <br>
+        <h4>Mon lycée</h4>
+        <p>
+          <img src="blaise.jpg" height= 450px alt="blaise.jpg" class="img2">
+          J’ai éffectué mon année de seconde générale au lycée Bartholdi à Colmar.
+          Arrivé en première j’ai choisi les spécialités mathématique, physique chimie et science de l’ingénieur 
+          car je voulait devenir soit professeur de mathématique soit dans l’ingénierie. 
+          L'option Science de l'ingénieur étant dispensé au lycée Blaise Pascal donc j'ai dû changer de lycée 
+          Arrivé en terminale j’ai choisi de garder les spécialités math et science de l’ingénieur avec l’option math expert pour ensuite aller en prépa ingénieur ou mathématique. 
+          J’ai décidé d’enlever la spécialité physique car cela ne me convenait pas et avec la spécialité science de l’ingénieur il y a 2 heures de physique chimie. 
+          Arrivé au moment des veux j’ai décider de demander une prépa MPSI à Mulhouse et Kleber à Strasbourg et un but RT à l’IUT de Colmar. 
+          J’ai obtenu mon bac en juillet et j’ai été accepté en réseau et télécommunication à l’IUT de Colmar pour changer de voie et partir sur de l’informatique.</p>
+          <br>
+        <h13>Universités</h13>
+        <h4>But RT</h4>
+        <p>
+          <img src="iutrt.jpg" height= 400px alt="iutrt.jpg">
+          <br>
+          J’ai décidé d’aller en BUT RT à l'IUT de Colmar car je suis passionné d'informatique depuis tout petit et mon parcours ma permis de valider mon choix et que cette établissement me donne beaucoup d’opportunité pour mon futur métier. 
+           Cette filière se déroule en 3 ans (BUT) avec en 2ème année un choix de spécialité et une possibilité d’alternance.</p>
+        <br>
+        <h4>BTS SIO SLAM</h4>
+        <p>A la suite de ma première année de BUT RT j'ai décidé de changer d'établissemnt et d'aller en première année de BTS SIO à Camille option SLAM pour me consacrer sur dévellopement informatique. Cette filière se déroule en 2ans avec en première année 5 semaines de stage et en deuxième année un choix d'option entre le SISR (Solutions d'Infrastructures, Systèmes et Réseaux ) et SLAM (Solution logiciel et application métier). J'ai décidé de prendre l'option SLAM car je voudrais devenir dévelloppeur web </p>
+      </section>
+      <h2>Stages</h2>
+      <section id="structuredef">
+        <div class="cards-row">
+            <div class="card-container">
+              <div class="card">
+                <div class="card-inner">
+                  <h4>Rectorat de Strasbourg service dsi_dvt</h4>
+                </div>
+                <div class="card-inner card-back">
+                  <p>Mon stage Rectorat de Strasbourg service dsi_dvt du 27 mai février au 28 juin 2025</p>
+                  <a href="stage.html">Stage Rectorat</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                  <div class="card-inner">
+                    <h4>Meosis</h4>
+                  </div>
+                  <div class="card-inner card-back">
+                    <p>Mon stage à Meosis du 24 février au 4 avril 2025</p>
+                    <a href="stage.html">Stage Meosis</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </section>
+    <h2>Projets</h2>
+    <section id="structuredef2">
+      <div class="cards-row">
+          <div class="card-container">
+              <div class="card">
+                  <div class="card-inner">
+                      <h4>Projets</h4>
+                  </div>
+                  <div class="card-inner card-back">
+                      <a href="Projet.html">Voir tout mes projets</a>
+                  </div>
+              </div>
+          </div>
+          <div class="card-container">
+              <div class="card">
+                  <div class="card-inner">
+                      <h4>Tps</h4>
+                  </div>
+                  <div class="card-inner card-back">
+                      <a href="tp.html">Voir tout mes TPs</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <br><br>
+  </section>
+</body>
+</html>

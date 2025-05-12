@@ -1,0 +1,12 @@
+.Skillet, .groix, .math, .planning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Skillet p, .groix p, .math p, .planning p {
+    flex: 1;
+    margin: 0;
+}

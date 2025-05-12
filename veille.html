@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Commun.css" rel="stylesheet">
+    <link href="veille.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.card-container, .card-container0').forEach(container => {
+            container.addEventListener('click', () => {
+                container.querySelector('.card').classList.toggle('flip');
+            });
+        });
+    });
+
+</script>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Accueil.html">Profil</a></li>
+            <li><a href="stage.html">Stages</a></li>
+            <li>
+                <a href="#">Projet</a>
+                <ul>
+                    <li><a href="Projet.html">Projet</a></li>
+                    <li><a href="tp.html">TP</a></li>
+                </ul>
+            </li>
+            <li><a href="Veille.html">Veille informatique</a></li>
+        </ul>
+    </nav>
+    <h1>Veille informatique</h1>
+    <h2>Qu'est ce qu'une veille informatique</h2>
+    <p>Une veille informatique, est un sujet qu'on choisi en rapport avec notre parcours actuel, qu'on va décrire et suivre ses actualités </p>
+    <h2>Qu'est ce que Wordpress</h2>
+    <p>Wordpress est un CMS (systeme de gestion de contenu) gartuit et open source qui permet de créer facilement son site web. Il est compatible avec les systèmes d'exploitation Microsoft Windows ainsi que ceux de type Unix (comme Linux ou macOS). Grâce à son environnement multiplateforme, WordPress peut être installé et utilisé sur différents serveurs et machines, ce qui le rend accessible à un large public, des débutants aux professionnels. Sa flexibilité, ses nombreux thèmes permets d'avoir une large palette pour créer votre site web à votre sauce. </p>
+    <h2>Histoire de wordpress</h2>
+    <p>WordPress est un CMS (Content Management System) créé le 27 mai 2003 par Mike Little et Matt Mullenweg en version 0.7 dont le nom vient de Presse écrite + blogging : WordPress (littéralement « Mot Presse »). C'est aujourd'hui l'un des outils les plus utilisés pour créer des sites web. WordPress est écrit en PHP et JavaScript.<br>
+    Mai 2004 : première extensions Hello Doly version 1.2<br>
+    Fevrier 2005 avec la version 1.5 : ajout des thèmes<br>
+    Juin 2010 : Arrivée des custom post types dans l’histoire de WordPress<br>
+    l’apparition de l’Outil de personnalisation (Customizer), pour pouvoir appliquer des changements en temps réel sur l’apparence graphique de votre thème (WordPress 3.4 « Green ») ;<br>
+    2018 : ajout d'un nouveau éditeur de contenu Gutenberg</p>
+    <h2>Actualités de Wordpress</h2>
+    <section id="structuredef">
+        <div class="cards-row">
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-inner">
+                        <h4>Wordpress 6.8</h4>
+                    </div>
+                    <div class="card-inner card-back">
+                        <p>Nouvelle version mise en ligne le 15 avril 2025 </p>
+                        <a href="https://www.vigicorp.fr/wordpress-6-8-est-disponible-ce-quil-faut-savoir-sur-la-mise-a-jour-cecil/#:~:text=WordPress%206.8%2C%20c'est%20pas,le%20site%20officiel%20de%20WordPress." target="_blank">Voir l'actu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-inner">
+                        <h4>Woo Commerce 9.7</h4>
+                    </div>
+                    <div class="card-inner card-back">
+                        <p>Ajout de la nouvelle version de Woo-Commerce</p>
+                        <a href="https://news.wpmarmite.com/boostez-votre-boutique-avec-woocommerce-9-7-expedition-performance-et-astuces-pour-le-panier/" target="_blank">Voir l'actu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-inner">
+                        <h4>elementor wordpres 3.28.0</h4>
+                    </div>
+                    <div class="card-inner card-back">
+                        <p>Ajout de la nouvelle versio d'elementor depuis le 17 mars 2025</p>
+                        <a href="https://webalia.fr/nouveautes-elementor-pro/#:~:text=Les%20nouveaut%C3%A9s%20Elementor%20Pro%203.28,et%20%C3%A0%20am%C3%A9liorer%20quelques%20widgets." target="_blank">Voir l'actu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </section>
+    <h2>Le rapport entre wordpress et mes études</h2>
+    <p>J'ai choisi le sujet de WordPress car je souhaite devenir développeur web, et plus précisément créateur de sites internet. Ce sujet s'inscrit donc parfaitement dans mon projet professionnel. De plus, WordPress est l'outil principal que j'ai utilisé lors de mon stage de deuxième année chez Meosis.</p>
+</body>
+</html>

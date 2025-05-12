@@ -1,0 +1,226 @@
+h1 {
+    font-family: 'Goudy Old Style', cursive;
+    text-align: center;
+    color: rgb(61, 90, 219);
+    font-size: 6.5em;
+    /* espace de 120 px par rapport a l'élément d'au dessus */
+    margin-top: 120px;
+    /* effet d'ombre */
+    text-shadow: 1px 3px 2px black;
+  }
+  
+h2 {
+  text-align: center;
+  color:rgb(228, 150, 49);
+  font-size: 4.5em;
+  text-shadow: 1px 3px 2px black;
+  font-family: 'Goudy Old Style', cursive;
+}
+/* style du logo */
+#logo {
+  font-family: 'Georgia', cursive;
+  /* le met en gras */
+  font-weight: bold;
+  float: left;
+} 
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+  }
+#mavie p{
+    color: rgb(196, 21, 21);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Ink free', cursive;
+    padding: 10px;
+    border: 5px groove rgb(24, 154, 194);
+    border-radius: 30px;
+    margin-right: 390px;
+  }
+
+h4 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+#monparcours p{
+    color: rgb(32, 75, 15);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Ink free', cursive;
+    margin-right: 390px;
+}
+
+h5 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+
+#mesexpériences p{
+    color: rgb(10, 51, 139);
+    font-size: 80%;
+    order: 1; 
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Ink free', cursive;
+    padding: 10px;
+    /* définir une bordure autour de l'élement */
+    border: 5px groove rgb(24, 154, 194);
+    /* arrondissemnt des coins */
+    border-radius: 10px;
+    margin-right: 390px;
+}
+
+
+
+
+h15 {
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 30px;
+    font-size: 1.7em;
+    font-family: 'Georgia', serif;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+h11 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.7em;
+    font-family: 'Georgia', serif;
+    text-decoration: underline;
+}
+
+h12 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.7em;
+    font-family: 'Georgia', serif;
+    text-decoration: underline;
+}
+
+h13 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 1.7em;
+    font-family: 'Georgia', serif;
+    text-decoration: underline;
+}
+
+h14 {
+  /* transforme le texte en majuscule */
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 30px;
+    font-size: 1.7em;
+    font-family: 'Georgia', serif;
+    /* souligné */
+    text-decoration: underline;
+    font-weight: bold;
+    /* déplacement de 40 px a gauche */
+    margin-right: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #17b8a3;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+  width: 40%;
+}
+h10{
+  text-align: center;
+  font-size: 20px;
+}
+hr{
+  margin: 10px 0;
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  width: 100%;
+}
+.name-field{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.name-field div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+label{
+  margin-bottom: 6px;
+  width: 10%;
+}
+input{
+  margin-bottom: 5px;
+  padding: 5px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 4);
+}
+input:focus{
+  border: 1px solid #17b8ab;
+  margin: 40px;
+}
+input[type="envoie"]{
+  margin-top: 15px;
+  background-color: #ccc;
+  color: black;
+  border: 1px solid #17b8a3;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.img2 {
+  /* créer une bordurre autour avec un arrondissement */
+  padding: 20px 20px 20px 20px;
+  border-radius: 50%;
+  float: left;
+}
+
+.img1 {
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+  float: right
+}
+
+.fichier1 {
+  color: red;
+}
+
+.fichier2 {
+  color: red;
+}
+
+.fichier3 {
+  color: red;
+}
